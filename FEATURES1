@@ -1,6 +1,15 @@
-Feature: 
-Scenario:
+Feature: Creación de una cuenta de usuario
+Como usuario, quiero poder crear una cuenta en la aplicación para acceder a todos los recursos y funciones disponibles.
 
+Scenario: Crear una cuenta en la aplicación 
 
+    Dado que el usuario "<new_user>" se encuentra en la pantalla de inicio de sesión
+    
+    Y selecciona la opción "Crear cuenta"
+
+    Cuando se muestra el formulario de registro de usuario para que ingrese su nombre "<user_name>", dirección de correo electrónico "<email>" y contraseña "<password>"
+
+    Entonces se permite al usuario crear la cuenta .
 
 Ejemplos: 
+

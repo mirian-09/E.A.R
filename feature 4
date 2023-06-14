@@ -1,1 +1,13 @@
+Feature: Acceso al material del curso  
+Como usuario, quiero poder acceder a materiales de estudio y recursos adicionales relacionados con los cursos y talleres virtuales.
 
+Scenario: 
+Dado que el usuario "<user>" desea acceder a los recursos adicionales del curso o taller virtual
+
+Y el usuario ingresa a la sección de "<Mis Cursos>"
+
+Cuando selecciona el curso del cual desea acceder a los recursos en "<Mis recursos>"
+
+Entonces se muestran los recursos disponibles ordenados por tipos de documento y se muestra la opción de abrir o descargar cada documento
+
+Ejemplos:

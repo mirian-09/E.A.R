@@ -12,4 +12,5 @@ Scenario: Crear una cuenta en la aplicación
     Entonces se permite al usuario crear la cuenta .
 
 Ejemplos: 
+Stephano Chavez, Creación de una cuenta, Nueva cuenta, Cuenta de usuario, Ubicación actual
 

@@ -1,0 +1,14 @@
+Feature:Evidencias del problema durante el soporte técnico 
+Como usuario, quiero poder compartir capturas de pantalla o enviar archivos adjuntos durante una conversación de soporte técnico en tiempo real.
+
+Scenario:  Usuario desea evidenciar su problema con la aplicacion 
+
+Dado que el usuario "<user>" está en una conversación de soporte técnico en tiempo real
+
+Y desea compartir una captura de pantalla "<screenshot>" o enviar un archivo adjunto "<attachment>"
+
+Cuando selecciona la opción de adjuntar una captura de pantalla o archivo
+
+Entonces, cuando selecciona la captura de pantalla o archivo deseado, se adjunta a la conversación de soporte técnico y el agente de soporte técnico puede ver y descargar la captura de pantalla o archivo adjunto.
+
+Ejemplos:

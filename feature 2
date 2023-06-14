@@ -13,4 +13,5 @@ Scenario: Inscripcion a un curso
    Entonces se le solicita proporcionar su nombre completo, dirección de correo electrónico y número de teléfono
 
 Ejemplos: 
+Stephano chavez, Inscripcion al curso, Nueva incripción de curso, Curso más adaptable, Ubicación temporanea.
 

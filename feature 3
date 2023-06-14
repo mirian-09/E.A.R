@@ -1,1 +1,11 @@
-jjjkj
+Feature:Acceso a las grabaciones de cursos y talleres virtuales 
+Como usuario, quiero poder acceder a grabaciones o repeticiones de los cursos y talleres virtuales a los que no pude asistir en tiempo real.
+
+Scenario: 
+   Dado que el usuario "<user>"  quiere observar las grabaciones de los cursos o talleres virtuales
+   Y el usuario entra a "<Mis cursos y talleres>" 
+   Cuando entra  tendrán un apartado que menciones si la grabación fue "<Vista>" o  "<No_vista>"
+   Entonces debe seleccionar "<Grabaciones>"  y escoger la grabación que desea observar 
+
+Ejemplos:
+

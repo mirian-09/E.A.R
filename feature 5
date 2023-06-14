@@ -1,1 +1,14 @@
+Feature: Solicitar soporte técnico en tiempo real
+Como usuario, quiero poder solicitar soporte técnico en tiempo real para resolver problemas técnicos que pueda enfrentar.
+
+Scenario:
+Dado que el usuario se encuentra en la opción de "<Solicitar soporte técnico>"
+
+Y proporciona los detalles de su problema técnico en el formulario de solicitud "<Formulario de solicitud>"
+
+Cuando hace clic en el botón de enviar solicitud "<Enviar>"
+
+Entonces se registra la solicitud de soporte técnico en el sistema "<Registro del sistema>" y se muestra un mensaje de confirmación "<Mensaje de confirmación>" indicando que la solicitud ha sido recibida y se brindará soporte técnico en tiempo real.
+
+Ejemplos: 
 

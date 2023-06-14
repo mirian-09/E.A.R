@@ -1,1 +1,16 @@
-ññl
+Feature: Inscripción al curso o taller virtual 
+
+Como usuario, quiero poder inscribirme en cursos y talleres virtuales para mejorar mis conocimientos tecnológicos.
+
+Scenario: Inscripcion a un curso 
+   
+  Dado que el usuario "<user>" se encuentra en la pantalla de cursos y talleres virtuales
+
+  Y selecciona el curso o taller "<course_or_workshop>"
+
+  Cuando decide inscribirse
+
+   Entonces se le solicita proporcionar su nombre completo, dirección de correo electrónico y número de teléfono
+
+Ejemplos: 
+
